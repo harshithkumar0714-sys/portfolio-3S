@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/portfolio-3S/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
